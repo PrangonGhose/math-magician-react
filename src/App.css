@@ -1,0 +1,52 @@
+body {
+  background-image: url('./images/background.jpg');
+  background-size: cover;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.navbar {
+  justify-content: space-between;
+}
+
+.logo {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 2em;
+  padding: 1%;
+}
+
+.menu {
+  align-items: center;
+  justify-content: space-between;
+  width: 25%;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: larger;
+}
+
+.link:hover {
+  color: cadetblue;
+}
+
+.home-text,
+.quote-text {
+  padding: 2%;
+}
+
+p {
+  text-align: center;
+  font-size: larger;
+}
+
+.author {
+  flex-direction: row-reverse;
+}

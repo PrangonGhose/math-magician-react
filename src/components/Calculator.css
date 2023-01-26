@@ -8,9 +8,16 @@
 }
 
 .main-container {
-  height: 100vh;
-  justify-content: center;
+  height: 60vh;
+  justify-content: space-between;
   align-items: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.heading {
+  height: 100%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .calculator-div {

@@ -18,6 +18,9 @@ export default function Calculator() {
 
   return (
     <div className="main-container flex">
+      <div className="heading">
+        <h1>Let&apos;s do some math!</h1>
+      </div>
       <div className="calculator-div flex">
         <div className="display flex">
           {total}

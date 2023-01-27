@@ -67,7 +67,9 @@ After you're finished please remove all the comments and instructions!
 
 > Describe between 1-3 key features of the application.
 
-- A **Single Page Application** (SPA) created using React library.
+- A **Single Page Application** (SPA) created using `React` library.
+- Clicking on the **_navigation_** menu generates the page segments.
+- The `HTML` content along with their styling is loaded dynamically without reloading the whole page using `React Routes`.
 - This web application can perform simple calculations and show random quotes.
 - Code is written following **__JSX__** syntax.
 
@@ -77,7 +79,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-Live demo is currently unavailable.
+Live demo is available [here](https://prangonghose.github.io/math-magician-react).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -102,7 +104,7 @@ $ node --version && npm --version
 ```
 ### Setup
 
-Clone the repository using [this link](https://github.com/PrangonGhose/Leaderboard.git)
+Clone the repository using [this link](https://github.com/PrangonGhose/math-magician-react.git)
 
 ### Install
 
